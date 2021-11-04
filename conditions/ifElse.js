@@ -26,3 +26,20 @@
 //     console.log("b is smaller than 1");
 //  }
 
+// let usName = "Oksana";
+
+// if(usName === 'Oksana'){
+//     homecity = 'Lviv';
+// } else if(usName === 'Lily'){
+//     homecity = 'Kyiv';
+// } else homecity = 'other'
+    
+// console.log(homecity);
+
+// if(true) console.log('Its true');
+
+// let n = 5;
+// if (n > 3){
+// n *= 3;
+// console.log(n);
+// }

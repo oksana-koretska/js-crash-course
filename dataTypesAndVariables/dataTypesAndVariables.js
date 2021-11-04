@@ -85,38 +85,15 @@
 // console.log(typeof parseFloat('45.35'));
 
 
-// if(true) console.log('Its true');
-
-// let n = 5;
-// if (n > 3){
-// n *= 3;
-// console.log(n);
-// }
 
 
 
 
-// if(usName === 'Oksana'){
-//     homecity = 'Lviv';
-// } else if(usName === 'Lily'){
-//     homecity = 'Kyiv';
-// } else (usName){
-//     homecity = 'other';
-// }
-    
-// console.log(homecity);
 
-// let userName = 'Oleh', homecity;
 
-// switch(userName){
-//     case "Oksana": homecity = "Lviv"; break
-//     case "Lily": homecity = "Kyiv"; break
-//     case "Olga": homecity = "LA";
-//     default : homecity = "World";
 
-// }
-// console.log(homecity);
-console.log("Hello Oksana")
+
+
 
 
 

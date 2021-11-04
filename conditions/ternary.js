@@ -11,9 +11,9 @@
 
 // using and
 
-const MATH_PI = 3.14;
-const radius = 10;
-const userName = 'Alex';
+// const MATH_PI = 3.14;
+// const radius = 10;
+// const userName = 'Alex';
 
 // console.log(userName != 'Oksana');
 // console.log(userName != 'Alex');
@@ -33,7 +33,7 @@ const userName = 'Alex';
       
 // console.log("result 2 ", res2);
 
-console.log("Oksana");
+
 
 
 
