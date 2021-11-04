@@ -63,13 +63,13 @@ console.log(human);
 const human = {
   uName : 'Oksana',
   sayHello: function(){
-    //   console.log(this);
+      console.log(this);
     console.log(`Hello, my name is ${this.uName}`);
-    //   console.log(this.uName);
-    //   console.log('Hello!');
+      console.log(this.uName);
+      console.log('Hello!');
   },
   sayBye(){
-    // console.log('Goodbye!');  
+    console.log('Goodbye!');  
   },
   inner: {
       someKey: 'Sun',
@@ -100,7 +100,7 @@ const human = {
     uName : 'Oksana',
     age: 25,
  };
-// console.log(Object.keys(human));
+console.log(Object.keys(human));
 
 
 const getAge = ( obj, key) => {
@@ -138,10 +138,10 @@ console.log(Math.max(...arr));
 
 const arr1 = [1, 2, 3];
 const arr2 = [4, 5, 6];
-// array3 = arr1.concat(arr2);
+array3 = arr1.concat(arr2);
 const array3 = [...arr1, ...arr2];
 const array4 = [...arr1, ...arr2, ...[7, 8, 9]];
-// console.log(array3);
+console.log(array3);
 console.log(array4);
 
 const obj1 = {
@@ -154,7 +154,7 @@ const obj2 = {
     language: "Ukrainian",
 };
 
-// const obj3 = {...obj1, ...obj2};
+const obj3 = {...obj1, ...obj2};
 const obj3 = {...obj1, ...obj2, ...{cat: "Luna"}};
 console.log(obj3);
 
@@ -166,10 +166,10 @@ const fn = (a, b, ...rest) => {
 console.log(fn(1, 4, 6, 56, 89));
 
 const sayHello = ({uName, age}) => {
-    // const uName = obj.uName;
-    // const age = obj.age;
+    const uName = obj.uName;
+    const age = obj.age;
 
-    // const {uName, age} = obj;
+    const {uName, age} = obj;
     console.log(`Hello, my name is ${uName}. I'm ${age} years old`);
 }
 
