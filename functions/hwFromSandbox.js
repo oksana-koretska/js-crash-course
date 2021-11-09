@@ -11,7 +11,7 @@ function calculateFigureArea(figureType, a, b) {
     return a * b;
 }
   }
-console.log(calculateFigureArea("circle", 5, 2));
+// console.log(calculateFigureArea("circle", 5, 2));
 
 
 // Task 5 - should return an object with new field and value
@@ -29,15 +29,15 @@ const obj = {
 }
 
 const newObj = extendObject('age', '100', obj);
-console.log(obj);
-console.log(newObj);
+// console.log(obj);
+// console.log(newObj);
 
 
 // Task 6
 function increaseBiggerArg(a, b) {
     return Math.max(a, b) + 100;
   }
-console.log(increaseBiggerArg(56, 78));
+// console.log(increaseBiggerArg(56, 78));
 
 
 // Task 4 - should return a value by key in provided object
@@ -52,12 +52,11 @@ const obj = {
   name: 'Name'
 };
 
-console.log(valueByKeyInObject('name', obj));
+// console.log(valueByKeyInObject('name', obj));
 
  
 let obj = {"one":"1","two":"3","three":"5","four":"1","five":"6"};
-let myFunc = function(thisObj, property) {
-  console.log(obj[property])
+let myFunc = function(thisObj, property) { // console.log(obj[property]);
 };
 myFunc(obj, "two");
 
@@ -66,7 +65,7 @@ myFunc(obj, "two");
 function sayHello(name) {
     return "Hello, " + name;
   }
-console.log(sayHello("Somename!"));
+// console.log(sayHello("Somename!"));
 
 
 function sayHello(name) {
@@ -74,4 +73,4 @@ function sayHello(name) {
   result = 'Hello, ' + name;
   return result;
 }
-console.log(sayHello("Somename!"));
+// console.log(sayHello("Somename!"));
